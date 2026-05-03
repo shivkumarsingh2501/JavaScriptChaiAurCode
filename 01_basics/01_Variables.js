@@ -1,22 +1,35 @@
-const accountId=  123434
-let accountEmail ="shivkumarsingh@gmail.com"
-var accountPassword ="12345"
-accountCity = "Jaipur";
+// 
 
-accountEmail ="hc@hc.com"
-accountPassword = "12321433214132"
-accountCity = "Bengaluru"
-let accountState;
-
-//accountId = 2
-console.log(accountId)
-console.table([accountId, accountPassword,accountCity,accountState])
-/*
-
-Prefer not to user var 
-Because of issue in block scope and functional scope 
-*/
-{
+// const arr =["door", "window", "roof"]
 
 
-}
+// arr[0] = "gate";
+// arr.push("wall");
+// console.log(arr)
+
+
+// const obj = {
+//     animal: "lion",
+//     color : "Yellow"
+// }
+
+// // allowed
+// obj.animal = "Tiger"
+// obj.legs = 4
+
+// console.log(obj)
+
+
+// const API_URL = "https://api.example.com";
+// function fetchData(){
+//     console.log("Fetching form",API_URL)
+// }
+// fetchData()
+
+// let today = new Date
+// console.log(today)
+
+let obj1 = {name:"Shiv"}
+let obj2 = obj1;
+obj2.name= "Kumar"
+console.log(obj1.name)
