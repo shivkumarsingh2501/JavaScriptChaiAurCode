@@ -135,4 +135,27 @@
 // const myFunction = function add(){
 
 // }
+// stack memory , Heap memory
+// primitive type take stack memory , where as nonprimitive type use in heap 
+// stack give copy whre as heap give reference
 
+// let myYoutbuename = " HiteshChoudarydotcom"
+// let anotherName = myYoutbuename
+// anotherName = "chai"
+// console.log(myYoutbuename);
+// console.log(anotherName);
+
+
+// let user = {
+//     email : "shivkumarsingh@gmail.com",
+//     upi : "username@upi"
+// }
+
+// let user2 = user
+
+// user2.email = "hitesh@google.com"
+// console.log(user.email);
+// console.log(user2.email);
+
+
+// 
